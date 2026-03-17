@@ -1,99 +1,158 @@
-# EduBridge - Engineering to MNC Bridge
+EduBridge: Multi-Agent AI Platform for Resume Analysis and Skill Gap Detection
 
-A comprehensive platform connecting engineering students with MNC opportunities through AI-powered tools and resources.
+EduBridge is an AI-powered career acceleration platform designed to help engineering students bridge the gap between their current skills and the requirements of top companies and research institutes.
 
-## Features
+The platform analyzes a candidate’s resume, target company, and desired role to detect skill gaps, predict selection probability, and provide personalized preparation guidance.
 
-- **Dashboard**: Overview of your progress and activities
-- **Tech Accelerator**: Company-specific fit analysis
-- **Scholar (IIT/NIT)**: Internship opportunity matching
-- **Smart Timetable**: AI-generated study schedules
-- **AI Mentor**: Educational assistant chatbot
-- **Industry Lab Guide**: Step-by-step lab experiment workflows
-- **Notes Converter**: Convert content to structured revision notes
-- **Skill Gap Analysis**: Analyze resume against target roles
-- **Project Generator**: Generate final year project ideas
-- **Mock Interview**: Practice with MCQ quizzes
-- **Peer Match**: Connect with like-minded peers
-- **MNC Trends**: Latest technology trends in MNCs
-- **Parent Portal**: Generate progress reports for parents
+EduBridge helps students understand why resumes get rejected, what skills they are missing, and how to improve through structured learning resources and interview preparation.
 
-## Setup Instructions
+Features:
 
-### Prerequisites
+Dashboard
 
-- Node.js (v18 or higher)
-- npm or yarn package manager
+A centralized dashboard that displays resume insights, preparation progress, analytics, and recommended actions for career improvement.
 
-### Installation
+Tech Accelerator
 
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+Allows students to select their dream company and role, upload their resume, and receive:
 
-2. **Set up environment variables:**
-   - Copy `.env.example` to `.env`
-   - Add your Google Gemini API key:
-     ```
-     VITE_API_KEY=your_api_key_here
-     ```
+Selection probability prediction
 
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
+Missing skills required for the company
 
-   The application will open at `http://localhost:3000`
+Personalized preparation roadmap
 
-### Build for Production
+Previous interview questions from that company
 
-```bash
+Scholar (IIT/NIT Internships)
+
+AI-based module that evaluates resumes and recommends internship opportunities from IITs and NITs along with estimated chances of shortlisting.
+
+Skill Gap Analyzer
+
+Analyzes the resume and identifies missing technical and soft skills, then redirects users to relevant learning platforms and resources.
+
+ATS Resume (Recruiter Mode)
+
+A tool designed for recruiters and company heads to:
+
+Analyze large numbers of resumes
+
+Shortlist top candidates
+
+Detect duplicate resumes
+
+Rank candidates using AI-powered keyword optimization
+
+Tech Stack – EduBridge
+Frontend
+
+React 19 + Vite – Fast and modern UI development
+
+TypeScript – Type safety and scalable code
+
+Tailwind CSS – Responsive and utility-first styling
+
+Recharts – Data visualization for analytics dashboards
+
+Lucide React – Icon library for UI components
+
+Backend
+
+Node.js + Express.js – REST API and server logic
+
+TypeScript – Structured backend development
+
+Multer – Resume file upload handling
+
+CORS & dotenv – Secure API communication and environment configuration
+
+AI & Machine Learning
+
+Google Generative AI (Gemini) – Resume analysis, skill gap detection, and interview preparation
+
+TensorFlow.js – Browser-based machine learning capabilities
+
+Face-api.js – Face detection for interview simulation features
+
+Tesseract.js – OCR for extracting text from documents or images
+
+Data Processing & APIs
+
+Axios – API communication between frontend and backend
+
+Weaviate Vector Database – Semantic search and AI embeddings
+
+PDF.js & pdf-parse – Resume PDF parsing and text extraction
+
+React Markdown – Rendering AI-generated formatted responses
+
+Utilities
+
+date-fns – Date manipulation
+
+js-tiktoken – Token management for LLM requests
+
+Development Tools
+
+ESLint + TypeScript ESLint – Code quality and linting
+
+ts-node-dev – Backend development server
+
+Serve – Static deployment support
+
+Setup Instructions
+Prerequisites
+
+Node.js v18 or higher
+
+npm or yarn package manager
+
+Installation
+1. Clone the Repository
+git clone https://github.com/yourusername/edubridge.git
+cd edubridge
+2. Install Dependencies
+npm install
+3. Set Up Environment Variables
+
+Create a .env file in the root directory and add:
+
+VITE_API_KEY=your_google_gemini_api_key
+4. Start Development Server
+npm run dev
+
+The application will run at:
+http://localhost:3000
+
+Build for Production
 npm run build
-```
 
-The production build will be in the `dist` folder.
+The optimized build will be generated inside the dist folder.
 
-### Preview Production Build
-
-```bash
+Preview Production Build
 npm run preview
-```
-
-## Project Structure
-
-```
-GVP/
-├── component/          # React components
-├── services/           # API services (Gemini AI)
+Project Structure
+EduBridge/
+│
+├── components/        # React UI components
+├── services/          # API and AI services
+├── backend/           # Express server and APIs
+├── utils/             # Helper utilities
 ├── src/               # Styles and assets
+│
 ├── App.tsx            # Main application component
 ├── index.tsx          # Application entry point
-├── index.html         # HTML template
 ├── types.ts           # TypeScript type definitions
-└── package.json       # Dependencies and scripts
-```
+├── package.json       # Project dependencies
+└── README.md
+Environment Variables
+Variable	Description
+VITE_API_KEY	Google Gemini API key used for AI features
+Development
 
-## Technologies Used
+EduBridge uses Vite for fast development with Hot Module Replacement (HMR). Any changes in the source code will automatically update in the browser during development.
 
-- **React 19** - UI framework
-- **TypeScript** - Type safety
-- **Vite** - Build tool and dev server
-- **Tailwind CSS** - Styling
-- **Google Gemini AI** - AI services
-- **Lucide React** - Icons
-- **Recharts** - Data visualization
-- **React Markdown** - Markdown rendering
+License
 
-## Environment Variables
-
-- `VITE_API_KEY`: Your Google Gemini API key (required for AI features)
-
-## Development
-
-The project uses Vite for fast development with hot module replacement (HMR). Any changes you make will automatically reflect in the browser.
-
-## License
-
-MIT
-
+MIT License
