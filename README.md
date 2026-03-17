@@ -22,12 +22,14 @@ Scholar (IIT/NIT Internships):AI-based module that evaluates resumes and recomme
 <img width="862" height="822" alt="image" src="https://github.com/user-attachments/assets/fbb2bf0f-e993-4a36-918c-97d07a91eb83" />
 
 Skill Gap Analyzer: Analyzes the resume and identifies missing technical and soft skills, then redirects users to relevant learning platforms and resources.
+<img width="737" height="556" alt="image" src="https://github.com/user-attachments/assets/0aa43bd3-471c-413b-b2ad-c8839d3419c7" />
 
 ATS Resume (Recruiter Mode): A tool designed for recruiters and company heads to:
 Analyze large numbers of resumes
 Shortlist top candidates
 Detect duplicate resumes
 Rank candidates using AI-powered keyword optimization
+<img width="828" height="640" alt="image" src="https://github.com/user-attachments/assets/80c97e70-7fe3-46d2-9d07-d16e942ff46e" />
 
 Tech Stack – EduBridge
 
