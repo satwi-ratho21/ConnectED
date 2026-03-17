@@ -1,21 +1,25 @@
 EduBridge: Multi-Agent AI Platform for Resume Analysis and Skill Gap Detection
-
+<img width="954" height="651" alt="image" src="https://github.com/user-attachments/assets/f42f856a-c665-4797-ba30-e3b47134a359" />
 
 EduBridge is an AI-powered career acceleration platform designed to help engineering students bridge the gap between their current skills and the requirements of top companies and research institutes.
 The platform analyzes a candidate’s resume, target company, and desired role to detect skill gaps, predict selection probability, and provide personalized preparation guidance.
 EduBridge helps students understand why resumes get rejected, what skills they are missing, and how to improve through structured learning resources and interview preparation.
+<img width="2551" height="1612" alt="image" src="https://github.com/user-attachments/assets/defb0ae7-44c5-4cab-9eeb-36e9e1fc738e" />
 
 Features:
 
 Dashboard: A centralized dashboard that displays resume insights, preparation progress, analytics, and recommended actions for career improvement.
+<img width="938" height="827" alt="image" src="https://github.com/user-attachments/assets/00817435-7c8b-4974-b0af-316837b4639f" />
 
 Tech Accelerator: Allows students to select their dream company and role, upload their resume, and receive:
 Selection probability prediction
 Missing skills required for the company
 Personalized preparation roadmap
 Previous interview questions from that company
+<img width="1877" height="871" alt="image" src="https://github.com/user-attachments/assets/61f4f686-45bd-416a-85bc-6110331c1053" />
 
 Scholar (IIT/NIT Internships):AI-based module that evaluates resumes and recommends internship opportunities from IITs and NITs along with estimated chances of shortlisting.
+<img width="862" height="822" alt="image" src="https://github.com/user-attachments/assets/fbb2bf0f-e993-4a36-918c-97d07a91eb83" />
 
 Skill Gap Analyzer: Analyzes the resume and identifies missing technical and soft skills, then redirects users to relevant learning platforms and resources.
 
